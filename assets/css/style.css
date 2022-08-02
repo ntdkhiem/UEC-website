@@ -1,0 +1,112 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://source.unsplash.com/random/1600x900?inspiration-quotes") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+a {
+    color: inherit!important;
+}
+
+/* Bootstrap Configs */
+.modal-header .btn-close {
+    padding: unset!important;
+    margin: unset!important;
+}
+
+.text-main {
+  color: #881C1C;
+}
+
+.media {
+  background-color: #C4C4C4;
+  color: #969696;
+  border-radius: 10px;
+}
+
+.media-lg {
+  height: 400px;
+  width: 800px;
+}
+
+.media-sm {
+  height: 400px;
+  width: 500px;
+}
+
+a.active {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+a.active:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.bg-main {
+  background-color: #881c1c;
+  color: #fff;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon-hoverable {
+    opacity: 0.5;
+}
+
+.icon-hoverable:hover,
+.icon-hoverable:focus {
+    opacity: 1;
+}
+
+.officer-card {
+    height: 300px;
+    width: 300px;
+}
+
+.officer-card-overlay {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.officer-card-overlay:hover,
+.officer-card-overlay:focus {
+    opacity: 1;
+}
+
+.officer-card-overlay hr {
+    width: 50%;
+    border-top: 3px solid;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hustle-board {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hustle_board.jpg) no-repeat center center fixed;
+  overflow: hidden;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
