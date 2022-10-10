@@ -2,13 +2,22 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UMass Entrepreneurship Club</title>
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-  <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link rel="shortcut icon" type="image/jpg" href="assets/images/uec-icon.ico"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>UMass Entrepreneurship Club</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/uec-icon.ico"/>
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Mailchimp style -->
+    <link href="https://cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
+    </style>
 </head>
 
 <body>
@@ -365,9 +374,16 @@
     <div class="d-flex h-50 hustle-board text-white justify-content-center align-items-center text-center">
         <h1>Add your business to our <span class="text-main">HUSTLE</span> board!</h1>
     </div>
+
+    <!-- Mailing List Sign Up -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mailChimpModal">
+      Sign Up to Our Mailing List!
+    </button>
+
     <footer class="bg-main py-2 d-flex justify-content-center">
         <div class="align-self-center">Made with <span style="color: pink;"><i class="fa-solid fa-heart"></i></span> by Khiem Nguyen</div>
     </footer>
+
     <!-- Officers' modal -->
     <div class="modal fade" id="GarrettModal" tabindex="-1" aria-labelledby="GarrettModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
@@ -408,11 +424,8 @@
           </div>
           <div class="modal-body text-center">
               <p>Junior year Honors student double majoring in Finance and Mathematics.</p>
-
               <p>Working as Teaching Assistant in Financial Modelling course.</p>
-
               <p>International student from India.</p>
-
               <p>Interested in pursuing a career in Quantitative and Decentralised Finance.</p>
           </div>
           <div class="modal-footer justify-content-center">
@@ -534,8 +547,72 @@ Her motto- Be the change you wish to see in the world</div>
         </div>
       </div>
     </div>
+    <!-- MailChimp Mailling List Modal -->
+    <div class="modal modal-lg fade show" id="mailChimpModal" tabindex="-1" aria-labelledby="mailChimpLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="mailChimpLabel">Subscribe To UMass Entrepreneurship Club Mail List</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+              <div id="mc_embed_signup">
+                  <form action="https://facebook.us11.list-manage.com/subscribe/post?u=74ff4cd3b869ef95c35dd44a2&amp;id=79d5496f6f&amp;f_id=007096e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                      <div class="indicates-required">
+                        <span class="asterisk">*</span> indicates required
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-EMAIL" class="form-label">Email Address <span class="asterisk">*</span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-FNAME">First Name </label>
+                        <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                        <span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-LNAME">Last Name </label>
+                        <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                        <span id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-MMERGE3">Graduation Year </label>
+                        <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
+                        <span id="mce-MMERGE3-HELPERTEXT" class="helper_text"></span>
+                      </div>
+                      <div id="mce-responses" class="clear foot">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_74ff4cd3b869ef95c35dd44a2_79d5496f6f" tabindex="-1" value="">
+                      </div>
+                      <div class="optionalParent">
+                        <div class="clear foot">
+                          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                          <p class="brandingLogo">
+                            <a href="http://eepurl.com/hTixBv" title="Mailchimp - email marketing made easy and fun">
+                              <img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_light_dtp.svg">
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 </body>
 </html>
